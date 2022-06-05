@@ -1,15 +1,10 @@
 import React from "react";
-import Home from "./pages/home/Home";
-import Navbar from "./pages/shared/Navbar";
-
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import "font-awesome/css/font-awesome.min.css";
+// import SignIn from "./pages/components/auth/login/Signin";
+import Home from "./pages/components/Home";
 
 function App() {
   return (
     <>
-      <Navbar />
       <Home />
     </>
   );
