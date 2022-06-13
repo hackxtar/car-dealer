@@ -1,0 +1,15 @@
+@import "../../../../../assets/__style__/constants.scss";
+
+.Appbar {
+  color: $secondary !important;
+  background-color: $white !important;
+  box-shadow: none !important;
+
+  .btn-menu {
+    color: $secondary !important;
+    &:hover {
+      background-color: $secondary !important;
+      color: $white !important;
+    }
+  }
+}
